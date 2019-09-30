@@ -3,12 +3,14 @@ UNIT = inch
 COMMENT = '
 CARDSIZE= 2.5, 3.5
 DPI= 200
-FONT="Times New Roman",36, TF ,#000000
 
 BORDER = Rectangle, #000000, .1
 
 COUNTER=, AA, 0
 
+
+'Title
+FONT="Times New Roman",36, TF ,#000000
 TEXT= , [Title], 0.25, AA, 2, .4,Center,Center
 COUNTER=, AA, AA+.4
 
@@ -71,10 +73,9 @@ FONT="Times New Roman",12, TF ,#000000
 TEXT=,--------(\/)--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
 COUNTER=, AA, AA+0.25
 FONT="Times New Roman",12, TF ,#000000
-Elseif= [AuX1]=HDG
-Rectangle= , .2, AA, 2.1, 1/4, #cccccc
-TEXT=,[BoX1],0.2,AA,2.1,1/4,CENTER,CENTER,0
-COUNTER=, AA, AA+1/4
+Elseif= [AuX1]=ZONE
+IMAGE=,[BoX1],0,AA,2.5,1,0,DN ''Generates lots of warnings.
+COUNTER=, AA, AA+1
 Elseif= [AuX1]=ALRT
 FONT="Times New Roman",12, TF ,#000000, #cc7777
 TEXT=,--------/!\--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
@@ -127,10 +128,9 @@ FONT="Times New Roman",12, TF ,#000000
 TEXT=,--------(\/)--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
 COUNTER=, AA, AA+0.25
 FONT="Times New Roman",12, TF ,#000000
-Elseif= [AuX2]=HDG
-Rectangle= , .2, AA, 2.1, 1/4, #cccccc
-TEXT=,[BoX2],0.2,AA,2.1,1/4,CENTER,CENTER,0
-COUNTER=, AA, AA+1/4
+Elseif= [AuX2]=ZONE
+IMAGE=,[BoX2],0,AA,2.5,1,0,DN
+COUNTER=, AA, AA+1
 Elseif= [AuX2]=ALRT
 FONT="Times New Roman",12, TF ,#000000, #cc7777
 TEXT=,--------/!\--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
@@ -183,10 +183,9 @@ FONT="Times New Roman",12, TF ,#000000
 TEXT=,--------(\/)--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
 COUNTER=, AA, AA+0.25
 FONT="Times New Roman",12, TF ,#000000
-Elseif= [AuX3]=HDG
-Rectangle= , .2, AA, 2.1, 1/4, #cccccc
-TEXT=,[BoX3],0.2,AA,2.1,1/4,CENTER,CENTER,0
-COUNTER=, AA, AA+1/4
+Elseif= [AuX3]=ZONE
+IMAGE=,[BoX3],0,AA,2.5,1,0,DN
+COUNTER=, AA, AA+1
 Elseif= [AuX3]=ALRT
 FONT="Times New Roman",12, TF ,#000000, #cc7777
 TEXT=,--------/!\--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
@@ -239,10 +238,9 @@ FONT="Times New Roman",12, TF ,#000000
 TEXT=,--------(\/)--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
 COUNTER=, AA, AA+0.25
 FONT="Times New Roman",12, TF ,#000000
-Elseif= [AuX4]=HDG
-Rectangle= , .2, AA, 2.1, 1/4, #cccccc
-TEXT=,[BoX4],0.2,AA,2.1,1/4,CENTER,CENTER,0
-COUNTER=, AA, AA+1/4
+Elseif= [AuX4]=ZONE
+IMAGE=,[BoX4],0,AA,2.5,1,0,DN
+COUNTER=, AA, AA+1
 Elseif= [AuX4]=ALRT
 FONT="Times New Roman",12, TF ,#000000, #cc7777
 TEXT=,--------/!\--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
@@ -296,10 +294,9 @@ FONT="Times New Roman",12, TF ,#000000
 TEXT=,--------(\/)--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
 COUNTER=, AA, AA+0.25
 FONT="Times New Roman",12, TF ,#000000
-Elseif= [AuX5]=HDG
-Rectangle= , .2, AA, 2.1, 1/4, #cccccc
-TEXT=,[BoX5],0.2,AA,2.1,1/4,CENTER,CENTER,0
-COUNTER=, AA, AA+1/4
+Elseif= [AuX5]=ZONE
+IMAGE=,[BoX5],0,AA,2.5,1,0,DN
+COUNTER=, AA, AA+1
 Elseif= [AuX5]=ALRT
 FONT="Times New Roman",12, TF ,#000000, #cc7777
 TEXT=,--------/!\--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
@@ -354,10 +351,9 @@ FONT="Times New Roman",12, TF ,#000000
 TEXT=,--------(\/)--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
 COUNTER=, AA, AA+0.25
 FONT="Times New Roman",12, TF ,#000000
-Elseif= [AuX6]=HDG
-Rectangle= , .2, AA, 2.1, 1/4, #cccccc
-TEXT=,[BoX6],0.2,AA,2.1,1/4,CENTER,CENTER,0
-COUNTER=, AA, AA+1/4
+Elseif= [AuX6]=ZONE
+IMAGE=,[BoX6],0,AA,2.5,1,0,DN
+COUNTER=, AA, AA+1
 Elseif= [AuX6]=ALRT
 FONT="Times New Roman",12, TF ,#000000, #cc7777
 TEXT=,--------/!\--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
