@@ -1,26 +1,33 @@
 ﻿LINK=1MhVIXiGWFDXuERPZeP26gSarWC62nU7wimgjc5GG4vE
-Unit= inch
-cardsize= 2.5, 3.5
-dpi= 200
+UNIT = inch
+COMMENT = '
+CARDSIZE= 2.5, 3.5
+DPI= 200
 FONT="Times New Roman",36, TF ,#000000
 
-Border = Rectangle, #000000, .15
+BORDER = Rectangle, #000000, .1
 
 COUNTER=, AA, 0
 
-Text= , [Title], 0.2, AA, 2.1, .5,Center,Center,0
-COUNTER=, AA, AA+.5
+TEXT= , [Title], 0.25, AA, 2, .4,Center,Center
+COUNTER=, AA, AA+.4
 
+'Render difficulty icon if not empty string. Best with single character string.
+IF = [Difficulty] <> ""
+FONT="Times New Roman",10, TF ,#ffffff
+ELLIPSE=,2.25,.1,.15,.15,#000000
+TEXT= , [Difficulty], 2.25,.1,.15,.15,Center,Center
+ENDIF
 
 FONT="Times New Roman",12, TF ,#000000
 
 'TODO: Only render header if not null.
-Rectangle= , .2, AA, 2.1, 1/4, #cccccc
+RECTANGLE= , .2, AA, 2.1, 1/4, #cccccc
 TEXT=,[HDG],0.2,AA,2.1,1/4,CENTER,CENTER,0
 COUNTER=, AA, AA+1/4
 
 
-
+'Main text body
 FONT="Times New Roman",12, TF ,#000000
 
 If = [AuX1]=TRG1
