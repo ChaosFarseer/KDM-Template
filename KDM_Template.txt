@@ -19,13 +19,25 @@ ELLIPSE=,2.25,.1,.15,.15,#000000
 TEXT= , [Difficulty], 2.25,.1,.15,.15,Center,Center
 ENDIF
 
-FONT="Times New Roman",12, TF ,#000000
-
-'TODO: Only render header if not null.
-RECTANGLE= , .2, AA, 2.1, 1/4, #cccccc
-TEXT=,[HDG],0.2,AA,2.1,1/4,CENTER,CENTER,0
-COUNTER=, AA, AA+1/4
-
+'Render header if not null.
+IF = [HDG] <> ""
+'If header is a "Mood", "Duration", or "Trap", use custom colors.
+'Default is the blue for a "Mood", or a hit location header.
+'First color is the header color (#ZZZZZZ), second is the text color (#YYYYYY).
+IF = ([HDG] = "Trait") _OR_ ("Status" @ [HDG])
+COLORS =, #cccccc, #000000
+ELSEIF = [HDG] = "Duration"
+COLORS =, #e031a9, #ffffff
+ELSEIF = "Trap" @ [HDG]
+COLORS =, #000000, #ffffff
+ELSE
+COLORS =, #22cae0, #ffffff
+ENDIF
+FONT="Times New Roman",10, T ,#YYYYYY
+RECTANGLE=, .2, AA, 2.1, 0.15, #ZZZZZZ
+TEXT=,[HDG],0.2,AA,2.1,0.15,CENTER,CENTER,0
+COUNTER=, AA, AA+0.15
+ENDIF
 
 'Main text body
 FONT="Times New Roman",12, TF ,#000000
