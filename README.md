@@ -18,13 +18,15 @@ soon.
 "Example card output")
 
 ## Setup Instructions
- 1. Download [nanDECK] (http://www.nand.it/nandeck/). 
+ 1. Download [nanDECK](http://www.nand.it/nandeck/). 
  2. Copy the Git repository to your computer. If you are new to Git, it's fairly easy to use GitHub's visual client.
 If you do not want updates, you can download the repository as a zip file instead. 
  3. Run nanDECK, click the Open Deck button, and select "KDM_Template.txt". 
- 4. Test whether you have set things up correctly by clicking Validate Deck. If 
-
-TODO: Link to example template, which is simpler than my template. 
+ 4. Test whether you have set things up correctly by clicking Validate Deck. Ignore the missing image warnings; if the deck is valid, the text output at the bottom should end with "Deck valid". 
+ 5. Click 'Build Deck' to preview how the example cards will look. You can browse through them using the arrows in the middle-right. 
+ 6. Make a copy of our [spreadsheet template](https://docs.google.com/spreadsheets/d/1KFg9fd_qZ4na4wP_3k7uMGBlgKIDKpmFX4UL-xydCqU/edit?usp=sharing). 
+ 7. If you continue using Google Sheets, get a sharable link with at least view permissions. Take the sheet ID out of the URL, and replace the first line inside KDM_Template.txt with that ID. For example, the template's ID is: 1KFg9fd_qZ4na4wP_3k7uMGBlgKIDKpmFX4UL-xydCqU
+ 8. You should now be able to make your own changes and see them inside nanDECK. Go nuts!
 
 ## Options
 Up to 6 elements per card. 
