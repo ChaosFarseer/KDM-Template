@@ -1,4 +1,4 @@
-﻿LINK=1MhVIXiGWFDXuERPZeP26gSarWC62nU7wimgjc5GG4vE
+﻿LINK=1KFg9fd_qZ4na4wP_3k7uMGBlgKIDKpmFX4UL-xydCqU
 UNIT = inch
 COMMENT = '
 CARDSIZE= 2.5, 3.5
@@ -70,17 +70,17 @@ TEXT=,[BoX1],0.2,AA,2.1,2/3,CENTER,WWCENTER,0
 COUNTER=, AA, AA+2/3
 Elseif= [AuX1]=FLOW
 FONT="Times New Roman",12, TF ,#000000
-TEXT=,--------(\/)--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
-COUNTER=, AA, AA+0.25
+TEXT=,--------(\/)--------,0.2,AA,2.1,0.20,CENTER,CENTER,0
+COUNTER=, AA, AA+0.20
 FONT="Times New Roman",12, TF ,#000000
 Elseif= [AuX1]=ZONE
 IMAGE=,[BoX1],0,AA,2.5,1,0,DN ''Generates lots of warnings.
 COUNTER=, AA, AA+1
 Elseif= [AuX1]=ALRT
 FONT="Times New Roman",12, TF ,#000000, #cc7777
-TEXT=,--------/!\--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
+TEXT=,--------/!\--------,0.2,AA,2.1,0.20,CENTER,CENTER,0
 FONT="Times New Roman",12, TF ,#000000
-COUNTER=, AA, AA+0.25
+COUNTER=, AA, AA+0.20
 ELSEIF= [AuX1]=ATK
 Rectangle= , .2, AA, 2.1, 0.33, #000000, #ffffff, .01
 TEXT=,[BoX1],0.2,AA,2,0.33,CENTER,CENTER,0
@@ -125,17 +125,17 @@ TEXT=,[BoX2],0.2,AA,2.1,2/3,CENTER,WWCENTER,0
 COUNTER=, AA, AA+2/3
 Elseif= [AuX2]=FLOW
 FONT="Times New Roman",12, TF ,#000000
-TEXT=,--------(\/)--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
-COUNTER=, AA, AA+0.25
+TEXT=,--------(\/)--------,0.2,AA,2.1,0.20,CENTER,CENTER,0
+COUNTER=, AA, AA+0.20
 FONT="Times New Roman",12, TF ,#000000
 Elseif= [AuX2]=ZONE
 IMAGE=,[BoX2],0,AA,2.5,1,0,DN
 COUNTER=, AA, AA+1
 Elseif= [AuX2]=ALRT
 FONT="Times New Roman",12, TF ,#000000, #cc7777
-TEXT=,--------/!\--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
+TEXT=,--------/!\--------,0.2,AA,2.1,0.20,CENTER,CENTER,0
 FONT="Times New Roman",12, TF ,#000000
-COUNTER=, AA, AA+0.25
+COUNTER=, AA, AA+0.20
 ELSEIF= [AuX2]=ATK
 Rectangle= , .2, AA, 2.1, 0.33, #000000, #ffffff, .01
 TEXT=,[BoX2],0.2,AA,2,0.33,CENTER,CENTER,0
@@ -180,17 +180,17 @@ TEXT=,[BoX3],0.2,AA,2.1,2/3,CENTER,WWCENTER,0
 COUNTER=, AA, AA+2/3
 Elseif= [AuX3]=FLOW
 FONT="Times New Roman",12, TF ,#000000
-TEXT=,--------(\/)--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
-COUNTER=, AA, AA+0.25
+TEXT=,--------(\/)--------,0.2,AA,2.1,0.20,CENTER,CENTER,0
+COUNTER=, AA, AA+0.20
 FONT="Times New Roman",12, TF ,#000000
 Elseif= [AuX3]=ZONE
 IMAGE=,[BoX3],0,AA,2.5,1,0,DN
 COUNTER=, AA, AA+1
 Elseif= [AuX3]=ALRT
 FONT="Times New Roman",12, TF ,#000000, #cc7777
-TEXT=,--------/!\--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
+TEXT=,--------/!\--------,0.2,AA,2.1,0.20,CENTER,CENTER,0
 FONT="Times New Roman",12, TF ,#000000
-COUNTER=, AA, AA+0.25
+COUNTER=, AA, AA+0.20
 ELSEIF= [AuX3]=ATK
 Rectangle= , .2, AA, 2.1, 0.33, #000000, #ffffff, .01
 TEXT=,[BoX3],0.2,AA,2,0.33,CENTER,CENTER,0
@@ -235,17 +235,17 @@ TEXT=,[BoX4],0.2,AA,2.1,2/3,CENTER,WWCENTER,0
 COUNTER=, AA, AA+2/3
 Elseif= [AuX4]=FLOW
 FONT="Times New Roman",12, TF ,#000000
-TEXT=,--------(\/)--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
-COUNTER=, AA, AA+0.25
+TEXT=,--------(\/)--------,0.2,AA,2.1,0.20,CENTER,CENTER,0
+COUNTER=, AA, AA+0.20
 FONT="Times New Roman",12, TF ,#000000
 Elseif= [AuX4]=ZONE
 IMAGE=,[BoX4],0,AA,2.5,1,0,DN
 COUNTER=, AA, AA+1
 Elseif= [AuX4]=ALRT
 FONT="Times New Roman",12, TF ,#000000, #cc7777
-TEXT=,--------/!\--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
+TEXT=,--------/!\--------,0.2,AA,2.1,0.20,CENTER,CENTER,0
 FONT="Times New Roman",12, TF ,#000000
-COUNTER=, AA, AA+0.25
+COUNTER=, AA, AA+0.20
 ELSEIF= [AuX4]=ATK
 Rectangle= , .2, AA, 2.1, 0.33, #000000, #ffffff, .01
 TEXT=,[BoX4],0.2,AA,2,0.33,CENTER,CENTER,0
@@ -291,17 +291,17 @@ TEXT=,[BoX5],0.2,AA,2.1,2/3,CENTER,WWCENTER,0
 COUNTER=, AA, AA+2/3
 Elseif= [AuX5]=FLOW
 FONT="Times New Roman",12, TF ,#000000
-TEXT=,--------(\/)--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
-COUNTER=, AA, AA+0.25
+TEXT=,--------(\/)--------,0.2,AA,2.1,0.20,CENTER,CENTER,0
+COUNTER=, AA, AA+0.20
 FONT="Times New Roman",12, TF ,#000000
 Elseif= [AuX5]=ZONE
 IMAGE=,[BoX5],0,AA,2.5,1,0,DN
 COUNTER=, AA, AA+1
 Elseif= [AuX5]=ALRT
 FONT="Times New Roman",12, TF ,#000000, #cc7777
-TEXT=,--------/!\--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
+TEXT=,--------/!\--------,0.2,AA,2.1,0.20,CENTER,CENTER,0
 FONT="Times New Roman",12, TF ,#000000
-COUNTER=, AA, AA+0.25
+COUNTER=, AA, AA+0.20
 ELSEIF= [AuX5]=ATK
 Rectangle= , .2, AA, 2.1, 0.33, #000000, #ffffff, .01
 TEXT=,[BoX5],0.2,AA,2,0.33,CENTER,CENTER,0
@@ -348,17 +348,17 @@ TEXT=,[BoX6],0.2,AA,2.1,2/3,CENTER,WWCENTER,0
 COUNTER=, AA, AA+2/3
 Elseif= [AuX6]=FLOW
 FONT="Times New Roman",12, TF ,#000000
-TEXT=,--------(\/)--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
-COUNTER=, AA, AA+0.25
+TEXT=,--------(\/)--------,0.2,AA,2.1,0.20,CENTER,CENTER,0
+COUNTER=, AA, AA+0.20
 FONT="Times New Roman",12, TF ,#000000
 Elseif= [AuX6]=ZONE
 IMAGE=,[BoX6],0,AA,2.5,1,0,DN
 COUNTER=, AA, AA+1
 Elseif= [AuX6]=ALRT
 FONT="Times New Roman",12, TF ,#000000, #cc7777
-TEXT=,--------/!\--------,0.2,AA,2.1,0.25,CENTER,CENTER,0
+TEXT=,--------/!\--------,0.2,AA,2.1,0.20,CENTER,CENTER,0
 FONT="Times New Roman",12, TF ,#000000
-COUNTER=, AA, AA+0.25
+COUNTER=, AA, AA+0.20
 ELSEIF= [AuX6]=ATK
 Rectangle= , .2, AA, 2.1, 0.33, #000000, #ffffff,.01
 TEXT=,[BoX6],0.2,AA,2,0.33,CENTER,CENTER,0
