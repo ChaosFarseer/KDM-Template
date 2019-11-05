@@ -8,6 +8,12 @@ BORDER = Rectangle, #000000, .1
 
 COUNTER=, AA, 0
 
+'If there is an override image, use that.
+IF = [HDG] = "Image"
+IMAGE = ,[Title],0,0,2.5,3.5,0,DN
+
+'Otherwise, render normally.
+ELSE
 
 'Title
 FONT="Times New Roman",36, TF ,#000000
@@ -375,4 +381,7 @@ COUNTER=, AA, AA+1.5
 Elseif= [AuX6]=TX4
 TEXT=,[BoX6],0.2,AA,2.1,2,CENTER,WWCENTER,0
 COUNTER=, AA, AA+2
+ENDIF
+
+'End of image override statement.
 ENDIF
