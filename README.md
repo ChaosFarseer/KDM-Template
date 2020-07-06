@@ -33,7 +33,7 @@ Up to 6 elements per card.
 
 Most elements are designed for AI cards, but you can improvise Hit Location cards by using text boxes. 
 
-Supported headers: Mood, Duration, Trap, Trait, Survivor Status. Headers are blue by default, for your hit location
+Supported headers: Mood, Duration, Trap, Trait, Survivor Status, Terrain. Headers are blue by default, for your hit location
 headers such as First Strike, Super-Dense, Impervious, Light Speed, and so on. 
 
 Element options: 
