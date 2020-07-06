@@ -32,7 +32,7 @@ IF = [HDG] <> ""
 'If header is a "Mood", "Duration", or "Trap", use custom colors.
 'Default is the blue for a "Mood", or a hit location header.
 'First color is the header color (#ZZZZZZ), second is the text color (#YYYYYY).
-IF = ([HDG] = "Trait") _OR_ ("Status" @ [HDG])
+IF = ([HDG] = "Trait") _OR_ ([HDG] = "Terrain") _OR_ ("Status" @ [HDG])
 COLORS =, #cccccc, #000000
 ELSEIF = [HDG] = "Duration"
 COLORS =, #e031a9, #ffffff

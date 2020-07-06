@@ -37,23 +37,29 @@ Supported headers: Mood, Duration, Trap, Trait, Survivor Status. Headers are blu
 headers such as First Strike, Super-Dense, Impervious, Light Speed, and so on. 
 
 Element options: 
-Text
-Flow
-Alert
-Header
-Zone
-Attack Profile
-Attack Trigger
-Persistent Injury
+* TX(1-4) - Text block. TX4 is longer than TX1. 
+* TRG(1-4) - Attack Trigger
+* FLOW - Flow
+* ALRT - Alert
+* INJ(1-3) - Persistent Injury
+* ATK - Attack
+* ZONE - For inserting images. Image must be in template's directory; recommend using included template for zones of death. 
+
+## Tips and Tricks
+* You can validate and build the deck in one click by right-clicking Validate Deck, instead of left-clicking. 
+* nanDECK will always use the leftmost sheet in the linked Google Sheet. You can get the template to print different sheets by changing their order. 
+* If you want to do one card yourself, replace the card's title with the path to a card image. The entire card will be replaced with that image. 
+* For a currently in-use example of how to use the template, you can look at what I use for my [Harvester Worm](https://docs.google.com/spreadsheets/d/1MhVIXiGWFDXuERPZeP26gSarWC62nU7wimgjc5GG4vE/edit?usp=sharing). Feel free to copy stuff from this sheet.  
 
 ## How to Import into Tabletop Simulator
+<https://kb.tabletopsimulator.com/custom-content/custom-deck/#deck-builder>
 
 ## How to Modify This Template
-Get Sublime Text or some equivalent, or die. 
+Get Sublime Text or some equivalent text editor, or die. 
 
-Read the nanDeck manual. 
+Read the nanDECK manual. 
 
 We don't yet have a good way to do loops, so the number of elements is determined by copy-pasting. To alter all templates
 at once, you really really want to have multi-select. 
 
-You need to reload the template in nanDeck every time you make a change to the file in your text editor. 
+You need to reload the template in nanDECK every time you make a change to the file in your text editor. 
