@@ -10,7 +10,7 @@ COUNTER=, AA, 0
 
 'If there is an override image, use that.
 IF = [HDG] = "Image"
-IMAGE = ,[Title],0,0,2.5,3.5,0,DN
+IMAGE = ,[Title],0,0,2.5,3.5,0,N
 
 'Otherwise, render normally.
 ELSE
