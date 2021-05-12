@@ -1,5 +1,7 @@
 # KDMtron - A Kingdom Death Prototype AI Card Generator
 
+Created by Greg Oppenheimer and Alex Freeman
+
 This project allows you to generate AI cards and HL cards for Kingdom Death: Monster. 
 These cards are not intended to be at the full quality level of official KDM cards; instead, this is for rapidly 
 creating and playtesting custom Kingdom Death content. When it's time to make your cards look official, you will
